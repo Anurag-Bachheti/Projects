@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Youe Local Time</title>
+</head>
+
+<style>
+body {
+    background-color: rgb(139, 68, 119) ;
+    color: black;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    }
+
+#clock{
+    font-size: 40px;
+    background-color: rgb(120, 100, 117);
+    padding: 20px 80px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+</style>
+
+
+<body>
+<nav>
+    <a target="_blank" href="/"> All Projects </a>
+</nav>
+<div class="center">
+<div id="banner"><span> Your Local Time</span></div>
+<div id="clock"></div>
+</div>
+    
+<script src="clock.js"> </script>
+</body>
+</html>
