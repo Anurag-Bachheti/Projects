@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+    text-align:center
+}
+
+nav{
+    text-align: left;
+}
+
+#subt{
+    text-align: right;
+    margin-left: 40px;
+}
+span{
+    margin-right: 170PX;
+}
+
